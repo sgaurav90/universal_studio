@@ -20,5 +20,33 @@
 - 200 OK: The request has succeeded
 - 400 Bad Request: The request could not be understood by the server 
 - 404 Not Found: The requested resource cannot be found
-- 500 Internal Server Error: The server encountered an unexpected condition 
+- 500 Internal Server Error: The server encountered an unexpected condition
+
+### Sample JSON for User and Account
+##### Book Ride : 
+```sh
+{
+        "rideId": 105,
+        "startTime": "20:30:00"
+}
+```
+
+
+#### Create Ride:
+```sh
+[
+    {
+        "rideId": 105,
+        "rideName": "Roller Coaster ",
+        "startTime": "11:00:00",
+        "rideCapacity": 20
+    },
+     {
+        "rideId": 106,
+        "rideName": "Transformers",
+        "startTime": "12:00:00",
+        "rideCapacity": 14
+    }
+]
+```
 
