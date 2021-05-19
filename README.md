@@ -22,7 +22,7 @@
 - 404 Not Found: The requested resource cannot be found
 - 500 Internal Server Error: The server encountered an unexpected condition
 
-### Sample JSON for Rides
+### Sample JSON
 ##### GET Ride Details Response: 
 ```sh
 [
@@ -56,7 +56,32 @@
     }
 ]
 ```
-
+##### GET Ride Details Response BY Ride Id: 
+```sh
+[
+    {
+        "rideId": 102,
+        "rideName": "Transformers",
+        "startTime": "13:00:00",
+        "seatAvailable": 10,
+        "waitTime": "765 min"
+    },
+    {
+        "rideId": 102,
+        "rideName": "Transformers",
+        "startTime": "13:30:00",
+        "seatAvailable": 10,
+        "waitTime": "795 min"
+    },
+    {
+        "rideId": 102,
+        "rideName": "Transformers",
+        "startTime": "14:00:00",
+        "seatAvailable": 10,
+        "waitTime": "825 min"
+    }
+]
+```
 ##### Book Ride : 
 ```sh
 {
