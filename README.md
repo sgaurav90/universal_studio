@@ -22,7 +22,41 @@
 - 404 Not Found: The requested resource cannot be found
 - 500 Internal Server Error: The server encountered an unexpected condition
 
-### Sample JSON for User and Account
+### Sample JSON for Rides
+##### GET Ride Details Response: 
+```sh
+[
+    {
+        "rideId": 101,
+        "rideName": "Roller Coaster",
+        "startTime": "11:00:00",
+        "seatAvailable": 10,
+        "waitTime": "645 min"
+    },
+    {
+        "rideId": 102,
+        "rideName": "Transformers",
+        "startTime": "13:00:00",
+        "seatAvailable": 10,
+        "waitTime": "765 min"
+    },
+    {
+        "rideId": 102,
+        "rideName": "Transformers",
+        "startTime": "13:30:00",
+        "seatAvailable": 10,
+        "waitTime": "795 min"
+    },
+    {
+        "rideId": 102,
+        "rideName": "Transformers",
+        "startTime": "14:00:00",
+        "seatAvailable": 10,
+        "waitTime": "825 min"
+    }
+]
+```
+
 ##### Book Ride : 
 ```sh
 {
