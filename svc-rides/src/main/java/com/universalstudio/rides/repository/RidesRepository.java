@@ -9,8 +9,8 @@ import com.universalstudio.rides.model.Rides;
 
 public interface RidesRepository extends JpaRepository<Rides, Integer> {
 
-	Rides findByRideIdAndStartTime(Integer rideId, Time startTime);
+	public Rides findByRideIdAndStartTime(Integer rideId, Time startTime);
 
-	List<Rides> findByRideId(Integer rideId);
+	public List<Rides> findByRideId(Integer rideId);
 
 }

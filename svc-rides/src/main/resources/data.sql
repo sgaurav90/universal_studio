@@ -12,9 +12,18 @@ insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'16:00
 insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'16:30','Roller Coaster',10);
 insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'17:00','Roller Coaster',10);
 insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'17:30','Roller Coaster',10);
-
-insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'20:30','Roller Coaster',10);
+insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'18:00','Roller Coaster',10);
+insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'18:30','Roller Coaster',10);
+insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'19:00','Roller Coaster',10);
+insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'19:30','Roller Coaster',10);
 insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'20:00','Roller Coaster',10);
+insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'20:30','Roller Coaster',10);
+insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'21:00','Roller Coaster',10);
+insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'21:30','Roller Coaster',10);
+insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'22:00','Roller Coaster',10);
+insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'22:30','Roller Coaster',10);
+insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'23:00','Roller Coaster',10);
+insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (101,'23:30','Roller Coaster',10);
 
 insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (102,'11:00','Transformers',10);
 insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (102,'11:30','Transformers',10);
@@ -46,16 +55,14 @@ insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (103,'16:30
 insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (103,'17:00','Bumper Cars',15);
 insert into rides(RIDE_ID,START_TIME,RIDE_NAME,RIDE_CAPACITY) values (103,'17:30','Bumper Cars',15);
 
-
-
-insert into user values (203050,'Mark');
-insert into user values (203051,'Tony');
-insert into user values (203052,'Jhon');
-insert into user values (203053,'Sam');
-insert into user values (203054,'Nor');
-insert into user values (203055,'Rawn');
-insert into user values (203056,'Harry');
-insert into user values (203057,'Shawn');
-insert into user values (203058,'Rock');
-insert into user values (203059,'Mickey');
-insert into user values (203060,'Henry');
+insert into user(USER_NAME) values ('Mark');
+insert into user(USER_NAME) values ('Tony');
+insert into user(USER_NAME) values ('Jhon');
+insert into user(USER_NAME) values ('Sam');
+insert into user(USER_NAME) values ('Nor');
+insert into user(USER_NAME) values ('Rawn');
+insert into user(USER_NAME) values ('Harry');
+insert into user(USER_NAME) values ('Shawn');
+insert into user(USER_NAME) values ('Rock');
+insert into user(USER_NAME) values ('Mickey');
+insert into user(USER_NAME) values ('Henry');

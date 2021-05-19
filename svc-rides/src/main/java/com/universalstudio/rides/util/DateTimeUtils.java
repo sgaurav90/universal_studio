@@ -12,7 +12,7 @@ public class DateTimeUtils {
 		LocalTime from = current.toLocalTime();
 		LocalTime to = time.toLocalTime();
 		Duration d = Duration.between(from, to);
-		return d.toMinutes() + "min";
+		return d.toMinutes() + " min";
 	}
 
 }

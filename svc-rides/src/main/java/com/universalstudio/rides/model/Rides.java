@@ -8,31 +8,27 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
-
 /**
  * @author gauravsingh
  *
  */
-@AllArgsConstructor
-@NoArgsConstructor
+
 @Entity
 public class Rides {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
-	
+
 	@Column(name = "RIDE_ID")
 	private Integer rideId;
-	
+
 	@Column(name = "START_TIME")
 	private Time startTime;
-	
+
 	@Column(name = "RIDE_NAME")
 	private String rideName;
-	
+
 	@Column(name = "RIDE_CAPACITY")
 	private Integer rideCapacity;
 
@@ -67,6 +63,5 @@ public class Rides {
 	public void setRideCapacity(Integer rideCapacity) {
 		this.rideCapacity = rideCapacity;
 	}
-	
 
 }
